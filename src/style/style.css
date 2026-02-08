@@ -1,0 +1,48 @@
+@import url('header.css');
+@import url('section.css');
+@import url('footer.css');
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('../font/ChunkFive-Regular.otf') format('opentype'), url('../font/ChunkFive-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChunkFivePrint';
+    src: url('../font/Chunk\ Five\ Print.otf') format('opentype'), url('../font/ChunkFive-Regular.ttf') format('truetype');
+}
+
+:root {
+    --font-title: 'ChunkFive', sans-serif;
+    --font-reset: Arial, Helvetica, sans-serif;
+    --font-cordel: cursive, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-reset);
+}
+
+a {
+    text-decoration: none;
+}
+
+.cordel {
+    white-space: pre-line;
+    text-align: left;
+    font-family: var(--font-cordel);
+    font-style: italic;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 1.8;
+    padding: 20px;
+}

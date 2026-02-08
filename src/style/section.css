@@ -1,0 +1,30 @@
+section {
+    padding: 50px;
+}
+
+.section-img {
+    background: black;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.425);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background01 {
+    background-image: url('../images/background001.jpg');
+    background-position: right center;
+}
+
+.background02 {
+    background-image: url('../images/background002.jpg');
+}
+
+article {
+    display: inline-block;
+    background-color: #00000063;
+
+    margin: 20px;
+}
+
+article > p.cordel {
+    color: #ffffff;
+}
