@@ -5,7 +5,7 @@ Projeto desenvolvido como parte do curso de **HTML5 e CSS3** do [CursoemVideo](h
 ![Preview do Projeto](src/images/cordel-img.png)
 
 ## 🔗 Demonstração
-Você pode visualizar o projeto online aqui: **[Projeto Android](https://anaClarissi.github.io/cordel-moderno/)**
+Você pode visualizar o projeto online aqui: **[Cordel Moderno](https://anaClarissi.github.io/cordel-moderno/)**
 
 ## 🚀 Tecnologias Utilizadas
 
